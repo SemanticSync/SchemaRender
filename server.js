@@ -8,8 +8,8 @@ const compression = require('compression');
 const express = require('express');
 const now = require('performance-now');
 const uuidv4 = require('uuid/v4');
-const cache = require('./libs/cache');
-const renderer = require('./libs/renderer');
+const cache = require('./lib/cache');
+const renderer = require('./lib/renderer');
 const cors = require('cors');
 const app = express();
 
